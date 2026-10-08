@@ -1,0 +1,68 @@
+/* General page settings */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #222;
+}
+
+
+/* Header */
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #222;
+    color: white;
+}
+
+
+/* Main area */
+main {
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+}
+
+
+/* Card */
+.card {
+    width: 400px;
+    padding: 30px;
+
+    background-color: white;
+
+    border-radius: 12px;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+
+    text-align: center;
+}
+
+
+/* Button */
+button {
+    padding: 12px 25px;
+
+    border: none;
+    border-radius: 6px;
+
+    background-color: #222;
+    color: white;
+
+    cursor: pointer;
+}
+
+
+/* Button when mouse is over it */
+button:hover {
+    background-color: #444;
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+
+    color: #666;
+}
